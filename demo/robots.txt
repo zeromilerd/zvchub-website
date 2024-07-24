@@ -1,0 +1,5 @@
+User-Agent: *
+
+Disallow: 
+
+sitemap: https://www.coldvault.bc5.eu/sitemap.xml

@@ -1,0 +1,12 @@
+
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^zvchub\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.zvchub\.com$
+RewriteRule ^partners\/?$ "https\:\/\/zvchub\.com\/partners\/Partners\.jpg" [R=301,L]
+RewriteCond %{HTTP_HOST} ^zvchub\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.zvchub\.com$
+RewriteRule ^CASI\-Paper\.pdf$ "https\:\/\/zvchub\.com\/CASI\-Paper\/" [R=301,L]
+RewriteCond %{HTTP_HOST} ^zvchub\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.zvchub\.com$
+RewriteRule ^QLT\-Paper\.pdf$ "https\:\/\/zvchub\.com\/QLT\-Paper\/" [R=301,L]
+
